@@ -8,8 +8,11 @@
 
 ##The Files in this Project:
 ###hpo.py: This file is written in to train the model on chosen hyperparameters from a specified range. This allowed me to extract the best hyperparameters from these ranges to tune my model.
+
 ###train_model.py: This file is written to train my model on the best hyperparameters from the tuning stage of this project.
+
 ###inference.py: This file is written to translate the input and output of a single image to a model endpoint to be able to receive prediction response.
+
 ###train_and_deploy.ipynb:This is the Jupyter Notebook file from AWS Sagemaker that contains the configurations, debugging, notes, and estimators I used to train and deploy my model.
 
 ## Step 1: Dataset
