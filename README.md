@@ -1,19 +1,19 @@
 # Report: Image Classification using AWS Sagemaker
 #### Ashley Perez
-###Date: 02/27/2023
+### Date: 02/27/2023
 
-#Introduction: This project is an introductory-level image classification model using a pre-trained Resnet deep learning model and pre-labeled images for 133 different dog breeds.
+# Introduction: This project is an introductory-level image classification model using a pre-trained Resnet deep learning model and pre-labeled images for 133 different dog breeds.
 
-#Project Set-Up Instructions: Please run notebook in chronological order and include all provided files in same directory. Please find all materials and sources referenced throughout the notebook and script files for more information on way code was written.
+# Project Set-Up Instructions: Please run notebook in chronological order and include all provided files in same directory. Please find all materials and sources referenced throughout the notebook and script files for more information on way code was written.
 
-##The Files in this Project:
-###hpo.py: This file is written in to train the model on chosen hyperparameters from a specified range. This allowed me to extract the best hyperparameters from these ranges to tune my model.
+## The Files in this Project:
+### hpo.py: This file is written in to train the model on chosen hyperparameters from a specified range. This allowed me to extract the best hyperparameters from these ranges to tune my model.
 
-###train_model.py: This file is written to train my model on the best hyperparameters from the tuning stage of this project.
+### train_model.py: This file is written to train my model on the best hyperparameters from the tuning stage of this project.
 
-###inference.py: This file is written to translate the input and output of a single image to a model endpoint to be able to receive prediction response.
+### inference.py: This file is written to translate the input and output of a single image to a model endpoint to be able to receive prediction response.
 
-###train_and_deploy.ipynb:This is the Jupyter Notebook file from AWS Sagemaker that contains the configurations, debugging, notes, and estimators I used to train and deploy my model.
+### train_and_deploy.ipynb:This is the Jupyter Notebook file from AWS Sagemaker that contains the configurations, debugging, notes, and estimators I used to train and deploy my model.
 
 ## Step 1: Dataset
 ### Explain what dataset you are using for this project. Maybe even give a small overview of the classes, class distributions etc that can help anyone not familiar with the dataset get a better understand of it.
