@@ -2,9 +2,9 @@
 #### Ashley Perez
 ### Date: 02/27/2023
 
-# Introduction: This project is an introductory-level image classification model using a pre-trained Resnet deep learning model and pre-labeled images for 133 different dog breeds.
+## Introduction: This project is an introductory-level image classification model using a pre-trained Resnet deep learning model and pre-labeled images for 133 different dog breeds.
 
-# Project Set-Up Instructions: Please run notebook in chronological order and include all provided files in same directory. Please find all materials and sources referenced throughout the notebook and script files for more information on way code was written.
+## Project Set-Up Instructions: Please run notebook in chronological order and include all provided files in same directory. Please find all materials and sources referenced throughout the notebook and script files for more information on way code was written.
 
 ## The Files in this Project:
 ### hpo.py: This file is written in to train the model on chosen hyperparameters from a specified range. This allowed me to extract the best hyperparameters from these ranges to tune my model.
