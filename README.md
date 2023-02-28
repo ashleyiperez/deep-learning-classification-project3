@@ -50,7 +50,7 @@ The output for loss and accuracy for both models seemed appropiate; accuracy inc
 
 ### Here are some notes on what to look for in loss charts for adjusting model training:
 
-![loss-and-accuracy-plot-considerations-from-helpful-links.jpg](loss and accuracy plot considerations-from helpful links.jpg)
+![loss-and-accuracy-plot-considerations-from-helpful-links.jpg](loss-and-accuracy-plot-considerations-from-helpful-links.jpg)
 
 ## Step 4: Testing and Evaluation
 ### What was the outcome of for deploying and querying the pre-trained model as an endpoint? 
@@ -58,11 +58,11 @@ The trained model successfully deployed. I selected a test image from the datase
 
 ### Here an example of query code for a multi-classification model:
 
-![endpoint-query-multi-class-model-example.jpg](endpoint query multi-class model example.jpg)
+![endpoint-query-multi-class-model-example.jpg](endpoint-query-multi-class-model-example.jpg)
 
 ### Here is an image of the deployed endpoint code working:
 
-![active-endpoint-from-training-job-02-27-23.jpg](active endpoint from training job-02-27-23.jpg)
+![active-endpoint-from-training-job-02-27-23.jpg](active-endpoint-from-training-job-02-27-23.jpg)
 
 ### Here is the output for querying the endpoint of the model:
 
