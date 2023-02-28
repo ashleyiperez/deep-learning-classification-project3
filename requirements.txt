@@ -1,0 +1,6 @@
+pytorch
+smdebug.pytorch
+torch
+torchvision
+sys
+pip
