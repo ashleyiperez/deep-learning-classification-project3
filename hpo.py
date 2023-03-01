@@ -44,6 +44,8 @@ def test(model, test_loader, hook):
             total += target.size(0)
             correct += (pred == target).sum().item()
             
+            hook.save_scalar("accuracy", correct/total)
+            
         print(f"'accuracy': {100 * correct/total}%")
         
     
@@ -76,6 +78,10 @@ def train(model, train_loader, criterion, optimizer, epochs, hook):
             optimizer.step()
             pred=pred.argmax(dim=1, keepdim=True)
             correct += pred.eq(target.view_as(pred)).sum().item()
+            
+            hook.save_scalar("accuracy", (correct/len(train_loader.dataset)))
+            hook.save_scalar("loss", loss)
+            
         print(f"Epoch {e}: Loss {running_loss/len(train_loader.dataset)}, \
                 Accuracy {100*(correct/len(train_loader.dataset))}%")
         #referencing example from here: https://docs.aws.amazon.com/sagemaker/latest/dg/debugger-modify-script-pytorch.html
